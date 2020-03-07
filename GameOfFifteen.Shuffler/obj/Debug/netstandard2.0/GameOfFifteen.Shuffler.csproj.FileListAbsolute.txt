@@ -1,0 +1,8 @@
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen.Shuffler\bin\Debug\netstandard2.0\GameOfFifteen.Shuffler.deps.json
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen.Shuffler\bin\Debug\netstandard2.0\GameOfFifteen.Shuffler.dll
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen.Shuffler\bin\Debug\netstandard2.0\GameOfFifteen.Shuffler.pdb
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen.Shuffler\obj\Debug\netstandard2.0\GameOfFifteen.Shuffler.csprojAssemblyReference.cache
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen.Shuffler\obj\Debug\netstandard2.0\GameOfFifteen.Shuffler.AssemblyInfoInputs.cache
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen.Shuffler\obj\Debug\netstandard2.0\GameOfFifteen.Shuffler.AssemblyInfo.cs
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen.Shuffler\obj\Debug\netstandard2.0\GameOfFifteen.Shuffler.dll
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen.Shuffler\obj\Debug\netstandard2.0\GameOfFifteen.Shuffler.pdb

@@ -1,0 +1,16 @@
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen\bin\Debug\GameOfFifteen.exe.config
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen\bin\Debug\GameOfFifteen.exe
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen\bin\Debug\GameOfFifteen.pdb
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen\obj\Debug\GameOfFifteen.csprojAssemblyReference.cache
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen\obj\Debug\GameOfFifteen.Form1.resources
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen\obj\Debug\GameOfFifteen.Properties.Resources.resources
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen\obj\Debug\GameOfFifteen.csproj.GenerateResource.cache
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen\obj\Debug\GameOfFifteen.exe
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen\obj\Debug\GameOfFifteen.pdb
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen\bin\Debug\GameOfFifteen.Shuffler.dll
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen\bin\Debug\GameOfFifteen.Shuffler.pdb
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen\obj\Debug\GameOfFifteen.csproj.CopyComplete
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen\bin\Debug\GameOfFifteen.Solver.dll
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen\bin\Debug\GameOfFifteen.Solver.pdb
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen\bin\Debug\MedallionPriorityQueue.dll
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen\bin\Debug\MedallionPriorityQueue.xml

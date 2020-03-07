@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Arkadii\\source\\repos\\GameOfFifteen\\GameOfFifteen.Solver\\GameOfFifteen.Solver.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Arkadii\\source\\repos\\GameOfFifteen\\GameOfFifteen.Solver\\GameOfFifteen.Solver.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Arkadii\\source\\repos\\GameOfFifteen\\GameOfFifteen.Solver\\GameOfFifteen.Solver.csproj",
+        "projectName": "GameOfFifteen.Solver",
+        "projectPath": "C:\\Users\\Arkadii\\source\\repos\\GameOfFifteen\\GameOfFifteen.Solver\\GameOfFifteen.Solver.csproj",
+        "packagesPath": "C:\\Users\\Arkadii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Arkadii\\source\\repos\\GameOfFifteen\\GameOfFifteen.Solver\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Arkadii\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MedallionPriorityQueue": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen.Solver\bin\Debug\netstandard2.0\GameOfFifteen.Solver.deps.json
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen.Solver\bin\Debug\netstandard2.0\GameOfFifteen.Solver.dll
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen.Solver\obj\Debug\netstandard2.0\GameOfFifteen.Solver.AssemblyInfoInputs.cache
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen.Solver\obj\Debug\netstandard2.0\GameOfFifteen.Solver.AssemblyInfo.cs
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen.Solver\bin\Debug\netstandard2.0\GameOfFifteen.Solver.pdb
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen.Solver\obj\Debug\netstandard2.0\GameOfFifteen.Solver.csprojAssemblyReference.cache
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen.Solver\obj\Debug\netstandard2.0\GameOfFifteen.Solver.dll
+C:\Users\Arkadii\source\repos\GameOfFifteen\GameOfFifteen.Solver\obj\Debug\netstandard2.0\GameOfFifteen.Solver.pdb

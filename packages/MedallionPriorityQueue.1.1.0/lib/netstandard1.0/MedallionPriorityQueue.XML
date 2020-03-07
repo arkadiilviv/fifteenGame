@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MedallionPriorityQueue</name>
+    </assembly>
+    <members>
+        <member name="T:Medallion.Collections.PriorityQueue`1">
+            <summary>
+            Implements a min priority queue (https://en.wikipedia.org/wiki/Priority_queue) using a binary heap
+            </summary>
+        </member>
+        <member name="F:Medallion.Collections.PriorityQueue`1.EmptyArray">
+            <summary>
+            Re-usable empty array instance
+            </summary>
+        </member>
+        <member name="F:Medallion.Collections.PriorityQueue`1.heap">
+            <summary>
+            The binary heap. May contain excess space at the end
+            </summary>
+        </member>
+        <member name="F:Medallion.Collections.PriorityQueue`1.version">
+            <summary>
+            Incremented by mutating operations to allow the <see cref="T:System.Collections.Generic.IEnumerator`1"/> to throw
+            exceptions when the collection is modified concurrently with enumeration
+            </summary>
+        </member>
+        <member name="M:Medallion.Collections.PriorityQueue`1.#ctor(System.Collections.Generic.IComparer{`0})">
+            <summary>
+            Constructs an instance of <see cref="T:Medallion.Collections.PriorityQueue`1"/>, optionaly using a specified <see cref="T:System.Collections.Generic.IComparer`1"/>
+            </summary>
+        </member>
+        <member name="M:Medallion.Collections.PriorityQueue`1.#ctor(System.Int32,System.Collections.Generic.IComparer{`0})">
+            <summary>
+            Constructs an instance of <see cref="T:Medallion.Collections.PriorityQueue`1"/> specifying an initial internal capacity
+            as well as an optional <see cref="T:System.Collections.Generic.IComparer`1"/>
+            </summary>
+        </member>
+        <member name="M:Medallion.Collections.PriorityQueue`1.#ctor(System.Collections.Generic.IEnumerable{`0},System.Collections.Generic.IComparer{`0})">
+            <summary>
+            Constructs an instance of <see cref="T:Medallion.Collections.PriorityQueue`1"/> initially populated with the
+            given <paramref name="items"/>. Optionally uses the given <see cref="T:System.Collections.Generic.IComparer`1"/>
+            </summary>
+        </member>
+        <member name="P:Medallion.Collections.PriorityQueue`1.Comparer">
+            <summary>
+            The <see cref="T:System.Collections.Generic.IComparer`1"/> instances which determines the sort order for the queue
+            </summary>
+        </member>
+        <member name="M:Medallion.Collections.PriorityQueue`1.Enqueue(`0)">
+            <summary>
+            Adds <paramref name="item"/> to the <see cref="T:Medallion.Collections.PriorityQueue`1"/>. This operation is
+            amortized O(log(N)) in complexity
+            </summary>
+        </member>
+        <member name="M:Medallion.Collections.PriorityQueue`1.Dequeue">
+            <summary>
+            Removes and returns the minimum element of the <see cref="T:Medallion.Collections.PriorityQueue`1"/> as determined
+            by its <see cref="P:Medallion.Collections.PriorityQueue`1.Comparer"/>. This operation is O(log(N)) in complexity.
+            
+            Throws <see cref="T:System.InvalidOperationException"/> if the queue is empty
+            </summary>
+        </member>
+        <member name="M:Medallion.Collections.PriorityQueue`1.Peek">
+            <summary>
+            Removes, but does not return the minimum element of the <see cref="T:Medallion.Collections.PriorityQueue`1"/> as determined
+            by its <see cref="P:Medallion.Collections.PriorityQueue`1.Comparer"/>. This operation is O(1) in complexity.
+            
+            Throws <see cref="T:System.InvalidOperationException"/> if the queue is empty
+            </summary>
+        </member>
+        <member name="M:Medallion.Collections.PriorityQueue`1.EnqueueRange(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Adds all of the given <paramref name="items"/> to the <see cref="T:Medallion.Collections.PriorityQueue`1"/>. This operation
+            may run faster than repeated calls to <see cref="M:Medallion.Collections.PriorityQueue`1.Enqueue(`0)"/>
+            </summary>
+        </member>
+        <member name="M:Medallion.Collections.PriorityQueue`1.Expand(System.Int32)">
+            <summary>
+            Expands the queue's capacity to store at least <paramref name="requiredCapacity"/> items in total
+            </summary>
+        </member>
+        <member name="M:Medallion.Collections.PriorityQueue`1.Sink(System.Int32,`0)">
+            <summary>
+            Performs the heap "sink" operation starting at <paramref name="index"/>. <paramref name="item"/>
+            will be placed in its determined final position
+            </summary>
+        </member>
+        <member name="M:Medallion.Collections.PriorityQueue`1.Swim(System.Int32,`0)">
+            <summary>
+            Performs the heap "swim" operation starting at <paramref name="index"/>. <paramref name="item"/>
+            will be placed in its determined final position
+            </summary>
+        </member>
+        <member name="M:Medallion.Collections.PriorityQueue`1.Heapify">
+            <summary>
+            Builds a binary heap from an unstructured array
+            </summary>
+        </member>
+        <member name="M:Medallion.Collections.PriorityQueue`1.AppendItems(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Appends the given <paramref name="items"/> to the heap without regard for maintaining
+            heap order
+            </summary>
+        </member>
+        <member name="P:Medallion.Collections.PriorityQueue`1.Count">
+            <summary>
+            The number of items in the <see cref="T:Medallion.Collections.PriorityQueue`1"/>
+            </summary>
+        </member>
+        <member name="M:Medallion.Collections.PriorityQueue`1.Add(`0)">
+            <summary>
+            Equivalent to <see cref="M:Medallion.Collections.PriorityQueue`1.Enqueue(`0)"/>. This method is exposed to allow <see cref="T:Medallion.Collections.PriorityQueue`1"/>
+            to be used with collection initializer syntax
+            </summary>
+        </member>
+        <member name="M:Medallion.Collections.PriorityQueue`1.Clear">
+            <summary>
+            Removes all items from the <see cref="T:Medallion.Collections.PriorityQueue`1"/>
+            </summary>
+        </member>
+        <member name="M:Medallion.Collections.PriorityQueue`1.Contains(`0)">
+            <summary>
+            Returns true if an only if the <see cref="T:Medallion.Collections.PriorityQueue`1"/> contains
+            the given <paramref name="item"/>. <see cref="P:Medallion.Collections.PriorityQueue`1.Comparer"/> is used to determine
+            item equality
+            </summary>
+        </member>
+        <member name="M:Medallion.Collections.PriorityQueue`1.GetEnumerator">
+            <summary>
+            Returns an <see cref="T:System.Collections.Generic.IEnumerator`1"/> over the items in the <see cref="T:Medallion.Collections.PriorityQueue`1"/>.
+            Note that the items are not enumerated over in the order that they would be returned by <see cref="M:Medallion.Collections.PriorityQueue`1.Dequeue"/>
+            </summary>
+        </member>
+        <member name="M:Medallion.Collections.PriorityQueue`1.Remove(`0)">
+            <summary>
+            Removes up to one instance of <paramref name="item"/> from the <see cref="T:Medallion.Collections.PriorityQueue`1"/> if
+            it exists, using <see cref="P:Medallion.Collections.PriorityQueue`1.Comparer"/> to determine equality. Returns true only if the queue was modified
+            </summary>
+        </member>
+        <member name="M:Medallion.Collections.PriorityQueue`1.Find(`0)">
+            <summary>
+            Searches for <paramref name="item"/> in the <see cref="T:Medallion.Collections.PriorityQueue`1"/>. Returns either
+            an index where <paramref name="item"/> resides or null if no such index was found
+            </summary>
+        </member>
+        <member name="T:Medallion.Collections.PriorityQueue`1.DebugView">
+            <summary>
+            Provides a cleaner view of the <see cref="T:Medallion.Collections.PriorityQueue`1"/> in the debugger
+            </summary>
+        </member>
+    </members>
+</doc>
